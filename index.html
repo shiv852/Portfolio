@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Kumar Saini - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3a7a5a6d4c.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-3xl font-bold text-blue-500">SKS</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-blue-500">Home</a>
+                    <a href="#services" class="hover:text-blue-500">Services</a>
+                    <a href="#work" class="hover:text-blue-500">Work</a>
+                    <a href="#skills" class="hover:text-blue-500">Skills</a>
+                    <a href="#contact" class="hover:text-blue-500">Contact</a>
+                </div>
+                <button class="hidden md:block bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full">
+                    Hire Me!
+                </button>
+                <button class="md:hidden mobile-menu-button">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden mobile-menu hidden">
+            <div class="flex flex-col space-y-4 p-4 bg-gray-800">
+                <a href="#home" class="hover:text-blue-500">Home</a>
+                <a href="#services" class="hover:text-blue-500">Services</a>
+                <a href="#work" class="hover:text-blue-500">Work</a>
+                <a href="#skills" class="hover:text-blue-500">Skills</a>
+                <a href="#contact" class="hover:text-blue-500">Contact</a>
+                <button class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full text-left">
+                    Hire Me!
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="animate-fadeIn">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                        I am <span class="text-blue-500">Shiv Kumar Saini</span>
+                    </h1>
+                    <h2 class="text-3xl md:text-5xl text-blue-500 mb-6">
+                        AWS Cloud & DevOps Engineer
+                    </h2>
+                    <p class="text-gray-400 mb-8">
+                        Passionate AWS Cloud & DevOps Engineer and Web Developer dedicated to creating innovative infrastructure solutions and user-friendly digital experiences. Transforming ideas into scalable, reliable systems and elegant, functional websites.
+                    </p>
+                    <div class="flex space-x-4">
+                        <button class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full hover-scale">
+                            Download CV
+                        </button>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-500 hover:text-blue-400 text-2xl hover-scale">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-blue-500 hover:text-blue-400 text-2xl hover-scale">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="text-blue-500 hover:text-blue-400 text-2xl hover-scale">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative animate-fadeIn">
+                    <div class="w-full h-[500px] rounded-2xl overflow-hidden shadow-2xl shadow-blue-500/20 flex items-center justify-center">
+                        <img src="images/rohan.jpg" alt="Shiv Kumar Saini" class="w-72 h-72 object-cover rounded-full border-4 border-blue-500 shadow-lg" style="object-position: center;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-800/50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                My <span class="text-blue-500">Services</span>
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-8 rounded-xl hover-scale">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">AWS Cloud Services</h3>
+                    <p class="text-gray-400 mb-4">
+                        Expert implementation of AWS services including EC2, S3, Lambda, ECS, RDS, and more. Building scalable, secure, and cost-effective cloud infrastructure.
+                    </p>
+                    <div class="grid grid-cols-2 gap-2 mt-4">
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">IAM</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">VPC</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">EC2</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">S3</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">RDS</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">DynamoDB</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">SNS</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">Lambda</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">Snowball</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full text-center">Lightsail</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-xl hover-scale">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">DevOps Solutions</h3>
+                    <p class="text-gray-400">
+                        Setting up CI/CD pipelines, containerization with Docker, orchestration with Kubernetes, and implementing Infrastructure as Code using Terraform and CloudFormation.
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-xl hover-scale">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Web Development</h3>
+                    <p class="text-gray-400">
+                        Creating responsive, modern websites and web applications using the latest technologies including HTML5, CSS3, JavaScript, and various frameworks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                My <span class="text-blue-500">Skills</span>
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">AWS EC2/VPC</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">IAM/Security</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">RDS/DynamoDB</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">S3/Storage</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">Lambda/SNS</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">Lightsail</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">Docker</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">Kubernetes</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">CI/CD</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">HTML5</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">CSS3</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">JavaScript</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover-scale">
+                    <h3 class="text-xl font-semibold mb-4">Tailwind CSS</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                My <span class="text-blue-500">Projects</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-xl overflow-hidden hover-scale">
+                    <div class="h-50 overflow-hidden flex items-center justify-center bg-gray-700">
+                        <img src="images/Screenshot (2593).png" alt="AWS Infrastructure" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Serverless Project</h3>
+                        <p class="text-gray-400 mb-4">● Designed and deployed a highly scalable serverless application on AWS using the Serverless Framework and CloudFormation. 
+                            <br>
+
+● Utilized AWS Lambda, API Gateway, DynamoDB, and S3 to create a fully managed, event-driven architecture.
+<br>
+● Eliminated server management overhead with auto-scaling, fault tolerance, and high availability handled by AWS.
+
+<br>
+
+● Delivered a cost-effective solution — serverless architecture charges per request, unlike EC2’s hourly billing, even when idle.
+<br>
+
+● Implemented Infrastructure as Code (IaC) using CloudFormation for fast, consistent, and repeatable deployments.</p>
+                        <div class="  space-x-2 ">
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">AWS</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">CloudFormation</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">IaaS</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">S3</span>
+                            <span class="mb-4  bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">DynamoDB</span>
+                            <br>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">Lambda</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">API GateWay</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-xl overflow-hidden hover-scale">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://via.placeholder.com/600x300.png?text=CI/CD+Pipeline" alt="CI/CD Pipeline" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">CI/CD Pipeline Implementation</h3>
+                        <p class="text-gray-400 mb-4">Built and optimized CI/CD pipelines using Jenkins, GitHub Actions, and AWS CodePipeline for continuous delivery.</p>
+                        <div class="flex space-x-2">
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">DevOps</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">Jenkins</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">GitHub Actions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-xl overflow-hidden hover-scale">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://via.placeholder.com/600x300.png?text=Web+Application" alt="Web Application" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Responsive Web Application</h3>
+                        <p class="text-gray-400 mb-4">Developed a modern, responsive web application with a focus on user experience and performance optimization.</p>
+                        <div class="flex space-x-2">
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">HTML5</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">CSS3</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-xl overflow-hidden hover-scale">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://via.placeholder.com/600x300.png?text=AWS+Cloud+Architecture" alt="AWS Cloud Architecture" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Enterprise AWS Cloud Architecture</h3>
+                        <p class="text-gray-400 mb-4">Designed and implemented a secure, scalable multi-tier architecture with VPC, IAM security controls, RDS databases, and DynamoDB for high availability.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">VPC</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">IAM</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">RDS</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">DynamoDB</span>
+                            <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">SNS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                Get In <span class="text-blue-500">Touch</span>
+            </h2>
+            <div class="max-w-2xl mx-auto">
+                <form class="space-y-6">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <textarea placeholder="Your Message" rows="5" class="w-full px-4 py-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg hover-scale">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-400">© 2024 Shiv Kumar Saini. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
