@@ -541,3 +541,20 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+
+
+<script>
+  // Disable right-click
+  document.addEventListener("contextmenu", e => e.preventDefault());
+
+  // Disable common inspect shortcuts
+  document.addEventListener("keydown", e => {
+    if (
+      e.ctrlKey && (e.key === "u" || e.key === "U" || e.key === "s" || e.key === "S") || // Ctrl+U / Ctrl+S
+      (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "i" || e.key === "C" || e.key === "c" || e.key === "J" || e.key === "j")) || // Ctrl+Shift+I/C/J
+      e.key === "F12"
+    ) {
+      e.preventDefault();
+    }
+  });
+</script>
